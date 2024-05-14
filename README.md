@@ -6,7 +6,7 @@ Your go-to task manager for seamless organization and enhanced productivity. Wit
 
 Our project task manager, TaskMaster, is designed to streamline project organization and boost productivity. Its purpose is to help users efficiently manage tasks, deadlines, and priorities to ensure project success. 
 
-###Key functionalities include:
+Key functionalities include:
 1. Task creation and assignment: Users can easily create tasks and assign them to team members.
 2. Deadline tracking: TaskMaster provides clear visibility of project deadlines, ensuring timely completion.
 3. Priority management: Users can prioritize tasks based on importance, keeping the team focused on critical objectives.
