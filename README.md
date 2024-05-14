@@ -15,35 +15,77 @@ Our project task manager, TaskMaster, is designed to streamline project organiza
 6. Reporting and analytics: TaskMaster offers insights into project performance, enabling users to identify areas for improvement and optimize workflow.
    
 ### Authors:
-Achref Bennadji [Facebook](https://www.facebook.com/profile.php?id=100009395125800&locale=fr_FR)
-## Installation
 
-Provide clear instructions on how to set up the project environment and install dependencies.
-If using package managers like pip or npm, mention the command(s) needed.
-Specify any system requirements (e.g., Python version, specific libraries).
-## Usage
+Achref Bennadji -> [Facebook](https://www.facebook.com/profile.php?id=100009395125800&locale=fr_FR)
 
-Explain how to run the project.
-Include commands or steps needed to execute the application.
-Provide examples of how to use the project's functionalities with different inputs (if applicable).
-## Contributing
+## Getting Started
 
-If you welcome contributions from others, outline the contribution guidelines.
-Mention any coding style guides or specific steps users should follow when submitting pull requests.
+To get started with the project, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone "https://github.com/devachref/LandingPage.git"
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   cd finalproject
+   npm install
+   ```
+
+3. **Start the client development server from root:**
+   ```bash
+   npm run client
+   ```
+
+3. **Start the server development server from root:**
+   ```bash
+   npm run server
+   ```
+
+4. **Open the application:**
+   - Open your browser and navigate to http://localhost:3000
+
+
 ## Related Projects
 
-List any projects similar to yours or that complement its functionalities (optional).
-## Licensing
+- **Notion:**
+- **ticktick**
+- **todolist**
 
-Specify the license under which your code is distributed (e.g., MIT License, Apache License).
-Include a link to the license document for reference.
-## Screenshots
 
-Include at least one screenshot showcasing your project's user interface or key features (optional).
-## Additional Resources
+## Key Features
 
-List any helpful resources related to the technologies used in your project (optional).
-This could include links to relevant documentation or tutorials.
-## Contact
+- **Dashboard**:
+  - Stay on top of task activities with the ability to add comments
+    ![Task Manager](images/Dash2.JPG)
+- **User Management**:
+  - Effortlessly create and manage team accounts, control access, and permissions.
+    ![Task Manager](images/Teams.JPG)
+- **Task Assignment**:
+  - Assign tasks to individual or multiple users, update task details, and track status.
+    ![Task Manager](images/Tasks.JPG)
+- **Task Properties**:
+  - Label tasks, assign priority levels, manage sub-tasks, and upload task assets.
+    ![Task Manager](images/Tasks2.JPG)
+- **Trash**:
+  - Easily recover deleted tasks or items from the Trash.
+    ![Task Manager](images/trash.JPG)
+    
+## Technologies Used
 
-Provide contact information for any questions or support requests (optional).
+- **Framework:** NestJs & Next.js
+- **Programming Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **User Management:** Clerk
+- **ORM:** Prisma
+- **UI Components:** shadcn/ui
+- **File Uploads:** uploadthing
+- **Typesafe APIs:** RestAPI
+- **Form Handling:** React Hook Form
+- **Data Validation:** Zod
+- **Code Quality:** ESLint, Prettier, Husky
+- **Testing:** Jest, Cypress
+- **CI/CD:** GitHub Actions
+- **Hosting:** Vercel
+
