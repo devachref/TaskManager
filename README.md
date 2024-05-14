@@ -49,7 +49,7 @@ To get started with the project, follow these steps:
 
 ## Related Projects
 
-- **Notion:**
+- **Notion**
 - **ticktick**
 - **todolist**
 
